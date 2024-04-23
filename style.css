@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "glitch";
+  src: url("glitch.otf") format("opentype");
+}
+
+body {
+  height: 100vh;
+  height: 100svh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-family: glitch, fantasy, serif;
+  text-shadow: -2px -2px 0px aqua, 2px 2px 0 pink;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+
+  flex: 1;
+}
